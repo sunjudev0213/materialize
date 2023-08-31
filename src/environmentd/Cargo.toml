@@ -58,7 +58,7 @@ mz-service = { path = "../service" }
 mz-sql = { path = "../sql" }
 mz-stash = { path = "../stash" }
 mz-storage-client = { path = "../storage-client" }
-nix = "0.26.1"
+nix = "0.26.4"
 num_cpus = "1.14.0"
 openssl = { version = "0.10.48", features = ["vendored"] }
 openssl-sys = { version = "0.9.80", features = ["vendored"] }
