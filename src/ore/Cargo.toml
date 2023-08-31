@@ -53,7 +53,7 @@ tracing-opentelemetry = { version = "0.19.0", optional = true }
 tonic = { version = "0.8.2", features = ["transport"], optional = true }
 tokio-native-tls = { version = "0.3.0", optional = true }
 native-tls = { version = "0.2.11", features = ["alpn"], optional = true }
-hyper = { version = "0.14.23", features = ["http1", "server"], optional = true }
+hyper = { version = "0.14.27", features = ["http1", "server"], optional = true }
 hyper-tls = { version = "0.5.0", optional = true }
 opentelemetry = { version = "0.19.0", features = ["rt-tokio", "trace"], optional = true }
 opentelemetry-otlp = { version = "0.12.0", optional = true }

@@ -12,7 +12,7 @@ askama = { version = "0.11.1", default-features = false, features = ["config", "
 axum = { version = "0.6.7", features = ["headers"] }
 headers = "0.3.8"
 http = "0.2.8"
-hyper = { version = "0.14.23", features = ["http1", "server"] }
+hyper = { version = "0.14.27", features = ["http1", "server"] }
 include_dir = "0.7.3"
 mz-ore = { path = "../ore", default-features = false, features = ["metrics", "tracing_"] }
 prometheus = { version = "0.13.3", default-features = false }
