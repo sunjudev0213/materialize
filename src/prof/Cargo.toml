@@ -25,7 +25,7 @@ mz-ore = { path = "../ore", default-features = false }
 pprof = "0.11.1"
 serde = { version = "1.0.152", features = ["derive"] }
 tempfile = "3.2.0"
-tikv-jemalloc-ctl = { version = "0.5.0", features = ["use_std"], optional = true }
+tikv-jemalloc-ctl = { version = "0.5.4", features = ["use_std"], optional = true }
 tracing = "0.1.37"
 tokio = { version = "1.24.2", features = ["time"] }
 workspace-hack = { version = "0.0.0", path = "../workspace-hack", optional = true }
